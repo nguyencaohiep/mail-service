@@ -1,0 +1,17 @@
+## Server Configuration
+SERVER_NAME: "mail-service"
+SERVER_IP: "127.0.0.1"
+SERVER_PORT: "8000"
+SERVER_STORE_PATH: "./config/stores"
+SERVER_UPLOAD_PATH: "./config/uploads"
+SERVER_UPLOAD_LIMIT: 8
+SERVER_LOG_LEVEL: "debug"
+
+## Database Configuration
+DB_DRIVER: "postgres"
+DB_HOST: "127.0.0.1"
+DB_PORT: "5432"
+DB_USER: "postgres"
+DB_PASSWORD: "password"
+DB_NAME: "mail-service"
+
